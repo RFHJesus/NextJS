@@ -4,11 +4,9 @@ export default function InscriptionPage() {
   return (
     <main>
       <h1><center>Page d'inscription</center></h1>
-      <h1 color="green">
-        <div className="bg-green-500 text-white p-4">
-        <marquee behavior="Hello" direction="">Peace for you</marquee>
-        </div>
-      </h1>
+      <div className="bg-green-500 text-white p-4 overflow-hidden">
+        <div className="animate-bounce">Peace for you</div>
+      </div>
       <form>
         <input type="text" placeholder="Nom d'utilisateur" />
 
